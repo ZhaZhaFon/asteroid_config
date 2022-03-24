@@ -1,3 +1,11 @@
+
+### 使用
+
+详见Makefile和train.py. 修改.yml文件后运行:
+```
+    make convtasnet_0324
+```
+
 ### Results 
 
 All the models were trained using 8 Khz min subsets with the same model
