@@ -1,10 +1,14 @@
 
 ### 使用
 
-详见Makefile和train.py. 修改.yml文件后运行:
+详见Makefile和train.py  
+配置.yml文件后运行:
 ```
     make convtasnet_0324
 ```
+
+---
+---
 
 ### Results 
 

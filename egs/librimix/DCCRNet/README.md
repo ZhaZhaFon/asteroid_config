@@ -1,3 +1,15 @@
+
+### 使用
+
+详见Makefile和train.py  
+配置.yml文件后运行:
+```
+    make dccrn_0325
+```
+
+---
+---
+
 ### Results 
 
 The model was train on the `enh_single` task on Libri1Mix `train_360`, at 16kHz.

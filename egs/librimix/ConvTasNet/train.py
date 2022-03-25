@@ -61,7 +61,7 @@ def main(conf):
         num_workers=conf["training"]["num_workers"],
         drop_last=True,
     )
-    print('   >> 加载val_set...')
+    print('   >> 加载val_loader...')
     val_loader = DataLoader(
         val_set,
         shuffle=False,
@@ -75,7 +75,7 @@ def main(conf):
     model = ConvTasNet(
         **conf["filterbank"], **conf["masknet"], sample_rate=conf["data"]["sample_rate"]
     )
-    print('>> 加载optimizer/scheduler')
+    print('>> 建立optimizer/scheduler')
     optimizer = make_optimizer(model.parameters(), **conf["optim"])
     # Define scheduler
     scheduler = None

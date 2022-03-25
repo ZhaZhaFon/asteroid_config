@@ -6,7 +6,7 @@
 * 基于pytorch-lightning的语音前端开源项目/工具包
 * 支持WSJ0/WHAM!/WHAMR/**LibriMix**等recipe
 * 支持**Conv-TasNet**/DPRNN/DPTNet等语音分离(说话人分离)模型
-* 支持DCCRN等语音增强模型
+* 支持**DCCRN**等语音增强模型
 
 ### 改动
 * 若干Makefile
@@ -14,7 +14,7 @@
 * 若干train.py
 
 ### TODO LIST
-* DCCRN
+* DCUNet
 * DNS
 
 ---
