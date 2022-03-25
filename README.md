@@ -1,3 +1,27 @@
+
+
+
+[原始仓库链接](https://github.com/asteroid-team/asteroid), 做了一些修改方便使用, 粗体为已跑
+
+* 基于pytorch-lightning的语音前端开源项目/工具包
+* 支持WSJ0/WHAM!/WHAMR/**LibriMix**等recipe
+* 支持**Conv-TasNet**/DPRNN/DPTNet等语音分离(说话人分离)模型
+* 支持DCCRN等语音增强模型
+
+### 改动
+* 若干Makefile
+* 若干yaml
+* 若干train.py
+
+### TODO LIST
+* DCCRN
+* DNS
+
+---
+---
+
+## README
+
 <div align="center">
 <img src="docs/source/_static/images/asteroid_logo_dark.png" width="50%">
 
@@ -19,7 +43,6 @@
 </div>
 
 --------------------------------------------------------------------------------
-
 
 Asteroid is a Pytorch-based audio source separation toolkit
 that enables fast experimentation on common datasets.
